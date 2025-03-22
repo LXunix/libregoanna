@@ -185,14 +185,15 @@
                     accesskey="&javascriptWasm.accesskey;" />
         </vbox>
       </row>
-      <row id="javascriptRow2">
+      <!-- WebRTC temp is disabled in LibreGoanna -->
+      <!-- <row id="javascriptRow2">
         <vbox align="start">
           <checkbox id="javascriptWebRTCPolicy"
                     preference="media.peerconnection.enabled"
                     label="&javascriptWebrtc.label;"
                     accesskey="&javascriptWebrtc.accesskey;" />
         </vbox>
-      </row>
+      </row> -->
     </rows>
   </grid>
 </groupbox>
