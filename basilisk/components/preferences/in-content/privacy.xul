@@ -96,6 +96,27 @@
   </vbox>
 </groupbox>
 
+<!-- Fingerprinting -->
+<groupbox id="dataFingerprintingGroup" data-category="panePrivacy" hidden="true">
+<vbox id="fingerprintingbox">
+  <caption><label>&dataFingerprinting.label;</label></caption>
+  <hbox align="center">
+    <checkbox id="GPC"
+              preference="privacy.GPCheader.enabled"
+              accesskey="&ResistFingerprinting.accesskey;"
+              label="&ResistFingerprinting.label;" />
+    <button width="16px" onclick="document.getElementById('fingerprintingmore').style.visibility = 'visible';">
+      <svg width="16px" height="16px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none">
+        <path fill="#000000" fill-rule="evenodd" d="M10 3a7 7 0 100 14 7 7 0 000-14zm-9 7a9 9 0 1118 0 9 9 0 01-18 0zm8-4a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm.01 8a1 1 0 102 0V9a1 1 0 10-2 0v5z"/>
+      </svg>
+    </button>
+  </hbox>
+  <hbox align="center" id="fingerprintingmore" hidden="true">
+    <label>&ResistFingerprintingMore.label;</label>
+  </hbox>
+</vbox>
+</groupbox>
+
 <!-- History -->
 <groupbox id="historyGroup" data-category="panePrivacy" hidden="true">
   <caption><label>&history.label;</label></caption>
