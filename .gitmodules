@@ -1,4 +1,4 @@
 [submodule "platform"]
 	path = platform
-	url = https://repo.palemoon.org/GermanAizek/LibreGoanna-UXP
+	url = https://github.com/LXunix/libregoanna-uxp
 	branch = master
